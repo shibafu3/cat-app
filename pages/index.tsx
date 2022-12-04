@@ -14,6 +14,7 @@ export default function Home() {
           alt='Picture of Cat1'
           layout='fill'
           priority
+          unoptimized={true} 
         />
       </div>
       <div className='relative w-32 h-32 overflow-hidden rounded-full ring-2 ring-pink-300 ring-offset-4'>
@@ -23,6 +24,7 @@ export default function Home() {
           alt='Picture of Cat2'
           layout='fill'
           priority
+          unoptimized={true} 
         />
       </div>
       <div className='relative w-32 h-32 overflow-hidden rounded-full ring-2 ring-pink-300 ring-offset-4'>
@@ -32,6 +34,7 @@ export default function Home() {
           alt='Picture of Cat3'
           layout='fill'
           priority
+          unoptimized={true} 
         />
       </div>
     </div>
